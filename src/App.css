@@ -1,0 +1,16 @@
+
+.icon-width{
+  stroke: white; 
+  stroke-width: 0.8;
+}
+#page{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+#sidebar{
+  flex: 0.17;
+}
+#recommended{
+  flex: 0.83;
+}

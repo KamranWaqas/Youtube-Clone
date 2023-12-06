@@ -1,0 +1,34 @@
+.videoCard{
+    width: 330px;
+}
+.videoCard:hover{
+    cursor: pointer;
+}
+.videoCard .image{
+    width: 100%;
+    border-radius: 19px;
+    transition: all .15s ease-in;
+}
+.videoCard .image:hover{
+    border-radius: 0%;
+    scale: 1.01;
+}
+.video-info{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: start;
+}
+.video-info .video-avatar{
+    width: 30px !important;
+    height: 30px !important;
+}
+.video-text h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.video-text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}

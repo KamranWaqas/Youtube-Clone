@@ -1,0 +1,10 @@
+.recommendedVideos{
+    padding: 13px 10px;
+    padding-bottom: 0;
+}
+.videoSection{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
